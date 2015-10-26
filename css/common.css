@@ -15,13 +15,20 @@ a:hover{
 .titulo a{
 	color: black;
 }
-nav{
-	margin: 2%;
+nav{	
+	text-align: center;
+	margin:3% 0%;
+}
+nav a:hover {
+	background-color: #05123B;   
+	color: #fff; 
 }
 nav a{
-	text-decoration: none;
-	color: grey;
-	margin: 3%;
+	text-decoration: none;   
+    color: #A09090;
+    font-size: 1.4em;
+    padding: 10px 40px;
+    border-radius: 5px;
 }
 .btn{
 	text-align: center;
