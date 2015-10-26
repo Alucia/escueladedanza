@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="description" content="">
+	    <meta name="author" content="Analucia">
+		<title>Escuela de Danza</title>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
+		<link rel="stylesheet" type="text/css" href="css/utilities.css">
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<!-- Inserta tu código aqui -->
+		<header class="text-center">
+			<div class="container">
+				<div class="row titulo">
+					<a class="a-none-decoration" href="index.html">
+						<h1>ESCUELA DE DANZA</h1>
+					</a>
+				</div>
+				<nav >
+					<a href="nosotros.html">Nosotros</a>
+					<a href="clases.html">Clases</a>
+					<a href="blog.html">Blog</a>
+					<a href="#contacto">Contáctanos</a>
+				</nav>
+			</div>
+		</header>
+		<section class="hero-image-index pt-5">
+			<div class="container ">
+				<div class="row text-white">
+					<div class="col-xs-12 col-sm-4">
+						<p class="font-size-40">STUDIO</p>
+						<p class="p-hero">Julliart Studios is a the perfect place to find your feet with over 20 unique styles of dance and 80  teachers to choose from.</p>
+						<div class="btn-inscribete">Inscribete</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="descripcion text-center">
+			<div class="container">
+				<div class="row">
+					<p>Julliart cuenta con una amplia experiencia y reputación, brindando una formación de excelencia a cientos de amantes de la danza. </p>
+				</div>	
+				<div class="row">
+					<img src="img/decoration_1.png" alt="decoracion1">
+					<div class=" btn oferta">Oferta de Clases</div>
+				</div>
+			</div>
+		</div>
+		<div class="instructoresindex">
+			<div class="container-fluid">
+			<div class="row mg-0 pd-0">
+				<div class="col-6 mg-0 pd-0">
+					<img src="img/instructor_4.jpg" alt="instructor de ballet">
+				</div>
+				<div class="col-6 mg-0 pd-0">
+					<img src="img/profesor_9.jpg" alt="Instructora de ballet">
+				</div>
+			</div>
+			<div class="btn nuestrosinstructores">Nuestros Instructores</div>
+		</div>
+		</div>
+		<div class="fraseindex pt-5 pb-5 text-center">
+			<div class="container">
+				<div class="row">
+					<p>"La danza es un poema en el que cada movimiento es una palabra"</p>
+				</div>
+			</div>
+		</div>
+		<div class="direccion">
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam distinctio dolorem culpa deserunt illum explicabo, reprehenderit, est, suscipit quae fugit nemo necessitatibus.</p>
+						<h2>Visítanos</h2>
+						<p>The Jullieard School</p> 
+						<p>60 Lincoln center Plaza</p> <p>New York,NY 10023</p> <p>(212) 799-5000</p>
+					</div>
+					<div class="col-6">
+						<div id="map" style="width:80%;height:300px;"></div> 
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contacto pt-5 pb-5" id="contacto" >
+			<div class="container">
+				<h3>Contáctanos</h3>
+				<div class="row">
+					<div class="col-6">
+						<div class="formulario-contacto">
+							<input class="for-nombre" type="text" name="nombre" placeholder="Nombre" />
+							<input class="for-email" type="text" name="email" placeholder="Email" />
+							<textarea class="for-mensaje" type="text" name="mensaje" placeholder="Mensaje" cols="40" rows="5"></textarea>
+							<div class="btn enviar">Enviar</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+					<p>  Escuela de danza. Todos los derechos reservados.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="http://maps.google.com/maps/api/js?sensor=false&callback=iniciar">
+		</script>
+		<script>
+			function iniciar() {
+				var mapOptions = {
+					center: new google.maps.LatLng(25.80, -80.30),
+					zoom: 10,
+					mapTypeId: google.maps.MapTypeId.ROADMAP};
+					var map = new google.maps.Map(document.getElementById("map"),mapOptions);}              
+		</script>
+	</body>
+</html>

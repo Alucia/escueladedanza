@@ -1,0 +1,34 @@
+/* Inserta tu codigo aqui */
+
+.img-articulo1{
+	width: 100%;
+	height: 230px;
+	background: url("../img/blog1.jpg") center;
+	background-size: 100% 110%;
+}
+
+.img-articulo2{
+	width: 100%;
+	height: 230px;
+	background: url("../img/profesor_5.jpg") center;
+	background-size: 100% 110%;
+}
+
+.img-articulo3{
+	width: 100%;
+	height: 230px;
+	background: url("../img/instructor_1.jpg") center;
+	background-size: 100% 110%;
+}
+
+.articulo{
+	height: 230px;
+	background-color: #a4a4a4;
+	padding: 3% 5%;
+}
+
+.ver-mas{
+	padding: 1.5%;
+	width: 40%;
+	border-radius: 5%;
+}
