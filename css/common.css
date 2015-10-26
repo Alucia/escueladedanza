@@ -35,6 +35,11 @@ nav a{
 	background-color: #192951;
 	color: white;
 }
+.btn:hover{
+	color: #192951;
+	background-color: #fff;
+	border: 2px solid #192951;
+}
 .transparente{
 	background-color: black;
 	opacity: 0.5;

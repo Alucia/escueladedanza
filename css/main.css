@@ -45,11 +45,6 @@
 	margin-top: 5%;
 	margin: auto;
 }
-.oferta:hover{
-	color: #192951;
-	background-color: #fff;
-	border: 2px solid #192951;
-}
 /*instructores*/
 .instructoresindex img {
 	width: 100%;
@@ -72,12 +67,13 @@
 	padding: 0% 15%;
 	font-size: 30px;
 }
+/*direccion*/
 .direccion{
 	background-color:  #192951;
 	color: white;
 	padding: 5% 0%;
 }
-.direccion .col-6:first-child{
+.direccion .col-sm-6:first-child{
 	padding-right: 10%;
 }
 .direccion h2{
