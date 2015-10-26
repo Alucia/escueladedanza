@@ -1,29 +1,24 @@
 /* Inserta tu codigo aqui */
-
 .hero-image-nosotros{
 	width: 100%;
 	height: 68%;
-	background: url("../img/dance_7.jpg") left center;
+	background: url("../img/dance_7.jpg")no-repeat left center;
 	background-size: 150%;
-	padding-top: 8%;
 }
-
 .fondo{
 	width: 50%;
+	text-align: center;
+	margin: 10% 23%;
 }
-
 .fondo-transparente h2{
 	margin: 2%;
 }
-
 .fondo-cubo{
 	background: url("../img/cubes.png");
 }
-
 .fondo-cubo .col-4{
 	padding: 4%;
 }
-
 .fondo-cubo h3{
 	border-bottom: 1px solid gray;
 }
